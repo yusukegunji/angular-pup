@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "angular-pup"
+  },
+  "targets": {
+    "angular-pup": {
+      "hosting": {
+        "angular-pup": [
+          "angular-pup"
+        ]
+      }
+    }
+  }
+}
