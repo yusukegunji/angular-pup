@@ -4,7 +4,7 @@ import * as admin from 'firebase-admin';
 
 export const db = admin.firestore;
 
-export const getRaseData = functions
+export const getRaceData = functions
   .region('asia-northeast1')
   .runWith({
     timeoutSeconds: 300,
@@ -14,7 +14,7 @@ export const getRaseData = functions
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
 
-    await page.goto('https://db.netkeiba.com/race/');
+    await page.goto('https://db.netkeiba.com/race/201906050811/');
 
     const resultsSelector = '.race_table_01 nk_tb_common';
 

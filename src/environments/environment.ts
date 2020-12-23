@@ -3,7 +3,6 @@ export const environment = {
   firebase:  {
     apiKey: 'AIzaSyBYnAQzV25IgIK_5X5L7RfeMjhziJWy5lI',
     authDomain: 'angular-pup.firebaseapp.com',
-    databaseURL: 'https://angular-pup.firebaseio.com',
     projectId: 'angular-pup',
     storageBucket: 'angular-pup.appspot.com',
     messagingSenderId: '628724784238',
